@@ -1,0 +1,23 @@
+[project]
+name = "feedbackai"
+version = "0.1.0"
+description = "AGENTE CORRETOR DE PROVAS"
+readme = "README.md"
+authors = [
+    { name = "Gabriel Sá", email = "gabrielsns2016@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "dotenv>=0.9.9",
+    "langchain>=1.4.1",
+    "langchain-google>=0.1.1",
+    "langchain-google-genai>=4.4.0",
+    "pydantic>=2.13.5",
+]
+
+[project.scripts]
+feedbackai = "feedbackai:main"
+
+[build-system]
+requires = ["uv_build>=0.12.15,<0.13.0"]
+build-backend = "uv_build"
