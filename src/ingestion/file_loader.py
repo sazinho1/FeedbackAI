@@ -1,11 +1,4 @@
-"""
-Ingestão de arquivos (gabarito e prova do aluno) para envio multimodal ao LLM.
-
-Este módulo resolve o ponto que faltava no script original: o código
-descrevia um agente que recebe .txt/.pdf/.png, mas nunca lia nem
-anexava nenhum arquivo de fato à chamada do modelo. Isolar essa lógica
-aqui também facilita testar com mocks, sem precisar de uma API key real.
-"""
+"""Ingestão de arquivos (gabarito e prova do aluno) para envio multimodal ao LLM."""
 
 from __future__ import annotations
 
@@ -13,7 +6,7 @@ import base64
 from dataclasses import dataclass
 from pathlib import Path
 
-from ai.config import MIME_TYPES_SUPORTADOS, Settings
+from feedbackai.config import MIME_TYPES_SUPORTADOS, Settings
 
 
 class ArquivoNaoEncontradoError(Exception):

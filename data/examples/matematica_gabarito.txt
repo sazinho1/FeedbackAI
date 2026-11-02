@@ -1,0 +1,46 @@
+GABARITO - Prova de Matemática - Equações do 2º Grau
+Professor: José Almeida
+Turma: 9º ano B
+Valor total: 10,0 pontos
+
+Questão 1 (3,0 pontos)
+Resolva a equação: x² - 5x + 6 = 0
+
+Resolução esperada:
+Usando Bhaskara: Δ = b² - 4ac = (-5)² - 4(1)(6) = 25 - 24 = 1
+x = (5 ± √1) / 2 → x1 = 3, x2 = 2
+(Também é válido resolver por fatoração: (x-2)(x-3) = 0)
+
+Resposta esperada: x = 2 ou x = 3
+
+Questão 2 (3,0 pontos)
+Resolva a equação: x² - 4 = 0
+
+Resolução esperada:
+x² = 4 → x = ±√4 → x = 2 ou x = -2
+É essencial que o aluno apresente AS DUAS raízes (positiva e negativa).
+Considerar apenas x = 2, esquecendo a raiz negativa, é erro comum e deve
+ser penalizado parcialmente (a técnica está correta, mas a resposta está
+incompleta).
+
+Resposta esperada: x = 2 ou x = -2
+
+Questão 3 (4,0 pontos)
+Resolva a equação: x² + 2x + 1 = 0 e classifique as raízes.
+
+Resolução esperada:
+Δ = 2² - 4(1)(1) = 4 - 4 = 0
+Como Δ = 0, a equação tem raiz dupla (real e igual).
+x = -2/2 = -1
+(Também aceitável resolver por produto notável: (x+1)² = 0 → x = -1)
+
+Resposta esperada: x = -1 (raiz dupla)
+
+Critérios gerais de correção:
+- Dar crédito total quando o processo estiver correto e a resposta final
+  também estiver correta, independentemente do método usado (Bhaskara,
+  fatoração, produto notável etc.).
+- Dar crédito parcial quando o processo estiver correto mas a resposta
+  final estiver incompleta ou com erro de sinal.
+- Não dar crédito quando o processo estiver conceitualmente errado,
+  mesmo que por acaso o aluno chegue perto da resposta certa.

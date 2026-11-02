@@ -13,6 +13,7 @@ dependencies = [
     "langchain-google>=0.1.1",
     "langchain-google-genai>=4.4.0",
     "pydantic>=2.13.5",
+    "pytest>=9.1.1",
 ]
 
 [project.scripts]

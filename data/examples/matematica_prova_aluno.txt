@@ -1,0 +1,24 @@
+PROVA - Matemática - Equações do 2º Grau
+Aluno: Marina Costa
+Turma: 9º ano B
+
+Questão 1
+x² - 5x + 6 = 0
+Δ = 25 - 24 = 1
+x = (5 ± 1) / 2
+x1 = 6/2 = 3
+x2 = 4/2 = 2
+Resposta: x = 3 ou x = 2
+
+Questão 2
+x² - 4 = 0
+x² = 4
+x = 2
+Resposta: x = 2
+
+Questão 3
+x² + 2x + 1 = 0
+Δ = 4 - 4 = 0
+Como o delta deu zero, só tem uma raiz.
+x = -2/2 = -1
+Resposta: x = -1
