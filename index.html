@@ -1,0 +1,335 @@
+```html
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>FeedbackAÍ</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Ícones -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+
+    <div class="app">
+
+        <!-- SIDEBAR -->
+        <aside class="sidebar">
+
+            <div class="logo">
+                <div class="logo-icon">
+                    <i class="fa-solid fa-wand-magic-sparkles"></i>
+                </div>
+
+                <span>Feedback<span class="logo-highlight">AÍ</span></span>
+            </div>
+
+            <button class="new-correction">
+                <i class="fa-solid fa-plus"></i>
+                Nova correção
+            </button>
+
+            <nav class="menu">
+
+                <p class="menu-title">MENU</p>
+
+                <a href="#" class="menu-item active">
+                    <i class="fa-solid fa-house"></i>
+                    Início
+                </a>
+
+                <a href="#" class="menu-item">
+                    <i class="fa-solid fa-clock-rotate-left"></i>
+                    Histórico
+                </a>
+
+                <a href="#" class="menu-item">
+                    <i class="fa-solid fa-file-lines"></i>
+                    Correções
+                </a>
+
+            </nav>
+
+            <div class="sidebar-bottom">
+
+                <a href="#" class="menu-item">
+                    <i class="fa-solid fa-circle-question"></i>
+                    Ajuda
+                </a>
+
+                <a href="#" class="menu-item">
+                    <i class="fa-solid fa-gear"></i>
+                    Configurações
+                </a>
+
+                <div class="user">
+
+                    <div class="user-avatar">
+                        P
+                    </div>
+
+                    <div class="user-info">
+                        <strong>Professor</strong>
+                        <span>Área do professor</span>
+                    </div>
+
+                    <i class="fa-solid fa-ellipsis"></i>
+
+                </div>
+
+            </div>
+
+        </aside>
+
+
+        <!-- CONTEÚDO PRINCIPAL -->
+        <main class="main">
+
+            <header class="topbar">
+
+                <div>
+                    <span class="breadcrumb">Início</span>
+                </div>
+
+                <button class="profile-button">
+                    <i class="fa-regular fa-user"></i>
+                </button>
+
+            </header>
+
+
+            <section class="content">
+
+                <!-- HERO -->
+                <div class="hero">
+
+                    <div class="hero-icon">
+                        <i class="fa-solid fa-wand-magic-sparkles"></i>
+                    </div>
+
+                    <h1>
+                        Vamos corrigir uma atividade?
+                    </h1>
+
+                    <p>
+                        Envie o gabarito e a prova do aluno.
+                        O FeedbackAÍ analisa as respostas e cria
+                        um feedback personalizado.
+                    </p>
+
+                </div>
+
+
+                <!-- UPLOADS -->
+                <div class="upload-container">
+
+
+                    <!-- GABARITO -->
+                    <div class="upload-card">
+
+                        <div class="card-header">
+
+                            <div class="card-icon teacher">
+                                <i class="fa-solid fa-graduation-cap"></i>
+                            </div>
+
+                            <div>
+                                <h2>Gabarito do professor</h2>
+
+                                <p>
+                                    Resolução ou critérios de correção
+                                </p>
+                            </div>
+
+                        </div>
+
+
+                        <div class="drop-zone">
+
+                            <div class="upload-icon">
+                                <i class="fa-solid fa-cloud-arrow-up"></i>
+                            </div>
+
+                            <strong>
+                                Arraste o arquivo aqui
+                            </strong>
+
+                            <span>
+                                ou clique para selecionar
+                            </span>
+
+                            <small>
+                                PDF, TXT ou PNG
+                            </small>
+
+                            <input type="file"
+                                   accept=".pdf,.txt,.png"
+                                   hidden>
+
+                            <button class="select-file">
+                                Selecionar arquivo
+                            </button>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <!-- PROVA -->
+                    <div class="upload-card">
+
+                        <div class="card-header">
+
+                            <div class="card-icon student">
+                                <i class="fa-solid fa-user-graduate"></i>
+                            </div>
+
+                            <div>
+                                <h2>Prova do aluno</h2>
+
+                                <p>
+                                    Atividade respondida pelo aluno
+                                </p>
+                            </div>
+
+                        </div>
+
+
+                        <div class="drop-zone">
+
+                            <div class="upload-icon">
+                                <i class="fa-solid fa-file-arrow-up"></i>
+                            </div>
+
+                            <strong>
+                                Arraste o arquivo aqui
+                            </strong>
+
+                            <span>
+                                ou clique para selecionar
+                            </span>
+
+                            <small>
+                                PDF, TXT ou PNG
+                            </small>
+
+                            <input type="file"
+                                   accept=".pdf,.txt,.png"
+                                   hidden>
+
+                            <button class="select-file">
+                                Selecionar arquivo
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- BOTÃO -->
+                <div class="start-container">
+
+                    <button class="start-button">
+                        <i class="fa-solid fa-wand-magic-sparkles"></i>
+                        Iniciar correção
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+
+                    <span>
+                        A correção será realizada por inteligência artificial.
+                    </span>
+
+                </div>
+
+
+                <!-- INFO -->
+                <div class="info-section">
+
+                    <div class="info-card">
+
+                        <div class="info-icon">
+                            <i class="fa-solid fa-bolt"></i>
+                        </div>
+
+                        <div>
+                            <strong>Correção rápida</strong>
+
+                            <p>
+                                Economize tempo na correção de atividades.
+                            </p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="info-card">
+
+                        <div class="info-icon">
+                            <i class="fa-solid fa-comments"></i>
+                        </div>
+
+                        <div>
+                            <strong>Feedback personalizado</strong>
+
+                            <p>
+                                Identifique erros e pontos para melhorar.
+                            </p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="info-card">
+
+                        <div class="info-icon">
+                            <i class="fa-solid fa-chart-simple"></i>
+                        </div>
+
+                        <div>
+                            <strong>Análise de desempenho</strong>
+
+                            <p>
+                                Visualize o desempenho do aluno.
+                            </p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+        </main>
+
+    </div>
+
+</body>
+</html>
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
